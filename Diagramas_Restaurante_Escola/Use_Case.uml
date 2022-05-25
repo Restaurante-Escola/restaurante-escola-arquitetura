@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_hveEQMvaEeyYgt9oqEg9fg" name="Diagrama_de_Uso">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_h3vPcMvaEeyYgt9oqEg9fg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_JpKNwMvpEeyYgt9oqEg9fg" name="Adiministrador" visibility="public"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_cQMaUMvpEeyYgt9oqEg9fg" name="Ficha Cadastral" visibility="private">
+    <include xmi:type="uml:Include" xmi:id="_N-QT0MvrEeyYgt9oqEg9fg" addition="_B-4-0MvrEeyYgt9oqEg9fg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_c6xBUMvpEeyYgt9oqEg9fg" name="Declaração de Matricula" visibility="private">
+    <include xmi:type="uml:Include" xmi:id="_Oyt2oMvrEeyYgt9oqEg9fg" addition="_B-4-0MvrEeyYgt9oqEg9fg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_dMmYMMvpEeyYgt9oqEg9fg" name="Imagem Prefeitura" visibility="private">
+    <include xmi:type="uml:Include" xmi:id="_Pey5gMvrEeyYgt9oqEg9fg" addition="_B-4-0MvrEeyYgt9oqEg9fg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_eCHD4MvpEeyYgt9oqEg9fg" name="Desligamento" visibility="private">
+    <include xmi:type="uml:Include" xmi:id="_QV45kMvrEeyYgt9oqEg9fg" addition="_B-4-0MvrEeyYgt9oqEg9fg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_e92TYMvpEeyYgt9oqEg9fg" name="Imagem Unisantos" visibility="private">
+    <include xmi:type="uml:Include" xmi:id="_c7WlQMvrEeyYgt9oqEg9fg" addition="_B-4-0MvrEeyYgt9oqEg9fg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_faJN0MvpEeyYgt9oqEg9fg" name="Advertência" visibility="private">
+    <include xmi:type="uml:Include" xmi:id="_d5jS4MvrEeyYgt9oqEg9fg" addition="_B-4-0MvrEeyYgt9oqEg9fg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_xj_vIMvpEeyYgt9oqEg9fg" name="EPI/Uniforme" visibility="private">
+    <include xmi:type="uml:Include" xmi:id="_gbGpoMvrEeyYgt9oqEg9fg" addition="_B-4-0MvrEeyYgt9oqEg9fg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_y1AEAMvpEeyYgt9oqEg9fg" name="Conclusão" visibility="private">
+    <include xmi:type="uml:Include" xmi:id="_hPvLkMvrEeyYgt9oqEg9fg" addition="_B-4-0MvrEeyYgt9oqEg9fg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_8yBt0MvpEeyYgt9oqEg9fg"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="__ZAXIMvpEeyYgt9oqEg9fg"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_CDLeYMvqEeyYgt9oqEg9fg"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_EdPGAMvqEeyYgt9oqEg9fg"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_FvO5YMvqEeyYgt9oqEg9fg"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Glt1cMvqEeyYgt9oqEg9fg"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Hra5QMvqEeyYgt9oqEg9fg"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_IpE0UMvqEeyYgt9oqEg9fg"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_B-4-0MvrEeyYgt9oqEg9fg" name="Login" visibility="private"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_jvwKMNuiEeyTjZA8XxOqrw" name="Aluno"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_obPo8NuiEeyTjZA8XxOqrw"/>
+</uml:Model>
