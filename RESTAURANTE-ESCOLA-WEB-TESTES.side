@@ -1,0 +1,395 @@
+{
+  "id": "34f62ac1-c7be-4f9b-a5cd-ed1e5a5c69c6",
+  "version": "2.0",
+  "name": "RESTAURANTE-ESCOLA-WEB-TESTES",
+  "url": "http://localhost:4200/login",
+  "tests": [{
+    "id": "d7175c89-55db-423b-9e7d-4a911479b651",
+    "name": "GerarDocErro",
+    "commands": [{
+      "id": "0cae9ee7-52fb-401a-9b68-7d4ff31d09ad",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:4200/documentos",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fc7773c0-a643-4b0e-9ff6-94710b92ebda",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1051x798",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "43ef1618-4417-4add-9a0e-a953ba99edf0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-button > .mat-button-wrapper",
+      "targets": [
+        ["css=.header-button > .mat-button-wrapper", "css:finder"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Gerar Documento')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2f9aeca-bb70-4bd2-b526-43f9b1f55859",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-form-field-infix",
+      "targets": [
+        ["css=.mat-form-field-infix", "css:finder"],
+        ["xpath=//div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "be6b37f7-d36e-4a06-ada3-0eedaa125d1d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-option-text",
+      "targets": [
+        ["css=.mat-option-text", "css:finder"],
+        ["xpath=//mat-option[@id='mat-option-0']/span", "xpath:idRelative"],
+        ["xpath=//mat-option/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Douglas Richarlison')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c062c66-a841-45e3-a30d-4b2d5a2874ff",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-button > .mat-button-wrapper",
+      "targets": [
+        ["css=.header-button > .mat-button-wrapper", "css:finder"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Gerar Documento')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb795bc8-ea87-44ec-b15b-fb521d973c75",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-button > .mat-button-wrapper",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "7b675c2e-db04-48bc-b1ae-114f1723bd0a",
+    "name": "GerarDocOK",
+    "commands": [{
+      "id": "1195c7fd-ba0d-4cc0-b312-b24f7965f2a7",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:4200/documentos",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6fbee2e6-c48f-46c2-ad9b-1f9db0efea6d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1051x798",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fbb2f05f-e350-4d2a-9a23-f1bab38ae9d4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-select-arrow-wrapper",
+      "targets": [
+        ["css=.mat-select-arrow-wrapper", "css:finder"],
+        ["xpath=//mat-select[@id='mat-select-0']/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d96168cc-cada-42de-b662-bbc3a79f6935",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-option-text",
+      "targets": [
+        ["css=.mat-option-text", "css:finder"],
+        ["xpath=//mat-option[@id='mat-option-0']/span", "xpath:idRelative"],
+        ["xpath=//mat-option/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Douglas Richarlison')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5f1bbe6-2aa3-4f19-a39d-0069c847e8c1",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-radio-2 .mat-radio-outer-circle",
+      "targets": [
+        ["css=#mat-radio-2 .mat-radio-outer-circle", "css:finder"],
+        ["xpath=//mat-radio-button[@id='mat-radio-2']/label/span/span", "xpath:idRelative"],
+        ["xpath=//label/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "06f0f0de-a556-4b18-b1f9-a0d2e047fe39",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-button > .mat-button-wrapper",
+      "targets": [
+        ["css=.header-button > .mat-button-wrapper", "css:finder"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Gerar Documento')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ca763d1-f297-499a-8ee5-02a6c4bffa54",
+      "comment": "",
+      "command": "click",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Cadastro de Alunos - Turma XVII')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "7d77eb42-636c-4e45-8e4e-aeab5719c49f",
+    "name": "GerarDocErro2",
+    "commands": [{
+      "id": "55b765f4-d73f-4117-bc8c-19f5135c8775",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:4200/documentos",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2dad701f-c8f1-4104-b185-f49791387650",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1051x798",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "46299f5c-91f8-460f-9d7c-50aaf2fcefe0",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-radio-2 .mat-radio-outer-circle",
+      "targets": [
+        ["css=#mat-radio-2 .mat-radio-outer-circle", "css:finder"],
+        ["xpath=//mat-radio-button[@id='mat-radio-2']/label/span/span", "xpath:idRelative"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f51d7d0-64ed-41cd-a66b-2d447e8fdfc0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.header-button > .mat-button-wrapper",
+      "targets": [
+        ["css=.header-button > .mat-button-wrapper", "css:finder"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Gerar Documento')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7396eb5a-0bad-4919-9298-1f4b02fd02f0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-button > .mat-button-wrapper",
+      "targets": [
+        ["css=.header-button > .mat-button-wrapper", "css:finder"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Gerar Documento')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c8c3a7d-0b8a-4c07-b8ef-7d826225abbe",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.header-button > .mat-button-wrapper",
+      "targets": [
+        ["css=.header-button > .mat-button-wrapper", "css:finder"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Gerar Documento')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba191897-9649-42e6-8cfd-78f911489818",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-radio-3 .mat-radio-outer-circle",
+      "targets": [
+        ["css=#mat-radio-3 .mat-radio-outer-circle", "css:finder"],
+        ["xpath=//mat-radio-button[@id='mat-radio-3']/label/span/span", "xpath:idRelative"],
+        ["xpath=//mat-radio-button[2]/label/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f002dbdc-3fba-4849-a903-38391117cbb6",
+    "name": "LoginErro",
+    "commands": [{
+      "id": "f69ab5e4-1207-44d2-9657-6a92eedad41c",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:4200/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "689fcddc-f158-4286-9e50-c1f68b4046d6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1051x798",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "405d2458-fb85-4978-850f-bc7f3a24ee41",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-0",
+      "targets": [
+        ["id=mat-input-0", "id"],
+        ["css=#mat-input-0", "css:finder"],
+        ["xpath=//input[@id='mat-input-0']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "eduventuraneves@gmail.com"
+    }, {
+      "id": "a8dc84ad-0c96-44cc-9ac5-9ce740787db8",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-1",
+      "targets": [
+        ["id=mat-input-1", "id"],
+        ["css=#mat-input-1", "css:finder"],
+        ["xpath=//input[@id='mat-input-1']", "xpath:attributes"],
+        ["xpath=//div[2]/mat-form-field/div/div/div[3]/input", "xpath:position"]
+      ],
+      "value": "abcde12345"
+    }, {
+      "id": "84626942-d088-4c5b-8d89-16789f30aa3f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-focus-indicator",
+      "targets": [
+        ["css=.mat-focus-indicator", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4541b5fc-e47e-46b3-8b0e-d9d328b71627",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-focus-indicator",
+      "targets": [
+        ["css=.mat-focus-indicator", "css:finder"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "087937b2-0c44-4292-8dcf-c063691fbf46",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-focus-indicator",
+      "targets": [
+        ["css=.mat-focus-indicator", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8da48790-d4ac-4825-8dc7-1c6875d273f0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-focus-indicator",
+      "targets": [
+        ["css=.mat-focus-indicator", "css:finder"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "6c5105e8-aaf2-4a2b-8fd5-e5bc168a54c5",
+    "name": "LoginOK",
+    "commands": [{
+      "id": "7e3fd0c2-b792-4847-8d7a-004fa4f90d24",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:4200/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "62aa465a-5efb-423a-bf68-35904fd58dba",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1054x800",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "39a3224b-b1eb-4b58-b866-9c902ed2f282",
+      "comment": "",
+      "command": "click",
+      "target": "id=mat-input-0",
+      "targets": [
+        ["id=mat-input-0", "id"],
+        ["css=#mat-input-0", "css:finder"],
+        ["xpath=//input[@id='mat-input-0']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b50b5423-1bbd-417d-99c8-6595bea9e4cc",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-0",
+      "targets": [
+        ["id=mat-input-0", "id"],
+        ["css=#mat-input-0", "css:finder"],
+        ["xpath=//input[@id='mat-input-0']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "eduventuraneves@gmail.com"
+    }, {
+      "id": "de9ec713-33b2-482f-b1bf-3b68e4940d1c",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-1",
+      "targets": [
+        ["id=mat-input-1", "id"],
+        ["css=#mat-input-1", "css:finder"],
+        ["xpath=//input[@id='mat-input-1']", "xpath:attributes"],
+        ["xpath=//div[2]/mat-form-field/div/div/div[3]/input", "xpath:position"]
+      ],
+      "value": "restauranteescolaunisantos013"
+    }, {
+      "id": "0c13bddc-1b7d-4a45-ae67-a2782a657d72",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-button-wrapper",
+      "targets": [
+        ["css=.mat-button-wrapper", "css:finder"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "354c37f2-d81a-4676-adc3-7d5d4539055b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-button-wrapper",
+      "targets": [
+        ["css=.mat-button-wrapper", "css:finder"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e99180a4-ea3c-4bee-a103-08453635ca83",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d7175c89-55db-423b-9e7d-4a911479b651"]
+  }],
+  "urls": ["http://localhost:4200/", "http://localhost:4200/documentos", "http://localhost:4200/login"],
+  "plugins": []
+}
